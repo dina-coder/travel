@@ -1,0 +1,40 @@
+.Main{
+  .Border{
+    height: 100vh;
+    background-image: url("../img/bordermain.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    .Title{
+      padding-top: 0px;
+      font-family: "Roboto Slab";
+      font-size: 150pt;
+      font-weight: 300;
+      letter-spacing: 3px;
+      color: white;
+      line-height: 0.7em;
+    }
+    .Name{
+      padding-top:250px;
+      color:white;
+      font-family: "Raleway";
+      font-weight: 700;
+      font-size: 20pt;
+      padding-bottom: 4px;
+    }
+    .Line{
+      background-color: white;
+      width: 91px;
+      height: 3px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Subtitle{
+      padding-top: 30px;
+      font-family: "Raleway";
+      color: #ac752f;
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: 0px;
+    }
+  }
+}

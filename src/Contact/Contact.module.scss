@@ -1,0 +1,36 @@
+
+.About {
+        position: relative;
+        height: 100vh;
+        .Border {
+            background-image: url("../img/background2.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-left: 50%;
+            height: 100vh;
+            img{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 600px;
+                right: 0;
+                margin: auto;
+            }
+            .Title{
+                position:relative;
+                top:200px;
+                right: 275px;
+
+            }
+            p{
+                position: absolute;
+                color: white;
+                left: 400px;
+                top: 320px;
+                font-weight: 300;
+                font-size: 13pt;
+                line-height: 20pt;
+            }
+        }
+    }
+
